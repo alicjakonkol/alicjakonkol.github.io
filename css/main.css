@@ -31,6 +31,14 @@
   font-family: "neue_haas";
   src: url("../fonts/neueHaas-reg.otf") format("opentype");
 }
+body h1, body h2, body h3, body p, body a, body div {
+  font-weight: normal;
+  font-style: normal;
+}
+body strong {
+  font-weight: bold;
+  font-style: normal;
+}
 body h1 {
   padding: 0;
   margin: 0;
@@ -74,6 +82,8 @@ body#home div.container h1 {
   color: #00FF00;
   position: absolute;
   font-family: "neue_haas_thin";
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
 }
 body#home div.container h1#part1 {
   top: 0;
